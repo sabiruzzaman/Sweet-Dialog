@@ -11,10 +11,14 @@ allprojects {
 		}
 	}
 ```
+
 > Step 2. Add the dependency
+
 ``` gradle
 dependencies {
+
 	        implementation 'com.github.sabiruzzaman:Sweet-Dialog:1.0.0'
+
 	}
 ```
 # Usage
