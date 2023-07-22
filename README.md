@@ -21,7 +21,7 @@ dependencies {
 
 ``` gradle
 
-                new CustomDialog.Builder(MainActivity.this)
+                new SweetDialog.Builder(MainActivity.this)
                         .setImage(getDrawable(R.drawable.your_icon))
                         .setTitle("Your title")
                         .setBody("Your body")
