@@ -11,10 +11,14 @@ allprojects {
 		}
 	}
 ```
+
 > Step 2. Add the dependency
+
 ``` gradle
 dependencies {
-	        implementation 'com.github.sabiruzzaman:Sweet-Dialog:Tag'
+
+	        implementation 'com.github.sabiruzzaman:sweet-dialog:1.0.0'
+
 	}
 ```
 # Usage
@@ -37,5 +41,26 @@ dependencies {
                         })
                         .setCancel(true)
                         .build();
-            }
+
 ```
+
+> Single Positive Button
+
+``` gradle
+
+                new SweetDialog.Builder(MainActivity.this)
+                        .setImage(getDrawable(R.drawable.your_icon))
+                        .setTitle("Your title")
+                        .setBody("Your body")
+                        .setPositiveBtnTxt("Your positive button text")
+                        .setPositiveBtnColor(R.color.your_positive_button_color)
+                        .setPositiveListener(() -> {
+                           // TODO add your positive logic here
+                        })
+                        .setCancel(true)
+                        .build();
+
+```
+
+# Screenshot
+<img src="app/src/main/assets/image/screenshot_1.png"  width=20% height=20%> <img src="app/src/main/assets/image/screenshot_2.png"  width=20% height=20%> <img src="app/src/main/assets/image/screenshot_3.png"  width=20% height=20%> <img src="app/src/main/assets/image/screenshot_4.png"  width=20% height=20%>
