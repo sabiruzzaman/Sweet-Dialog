@@ -17,7 +17,7 @@ allprojects {
 ``` gradle
 dependencies {
 
-	        implementation 'com.github.sabiruzzaman:Sweet-Dialog:1.0.0'
+	        implementation 'com.github.sabiruzzaman:sweet-dialog:1.0.0'
 
 	}
 ```
