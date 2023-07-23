@@ -16,7 +16,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         TextView textView = findViewById(R.id.clickTvId);
-        textView.setOnClickListener(v -> new SweetDialog.Builder(MainActivity.this)
+        textView.setOnClickListener(v ->
+
+
+                new SweetDialog.Builder(MainActivity.this)
                 .setImage(getDrawable(R.drawable.no_internet))
                 .setTitle("Error!!")
                 .setBody("No Internet. Please try again!!")
